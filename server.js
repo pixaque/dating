@@ -6,7 +6,7 @@ import cards from './dbCards.js'
 //App Config
 const app = express()
 const port = process.env.PORT || 8001
-const connection_url = 'mongodb+srv://pixaque:LK"p_vZRnCHh9BF@dating-app-mern.azxvpay.mongodb.net/?retryWrites=true&w=majority'
+const connection_url = ''
 
 //Middleware
 app.use(express.json())
